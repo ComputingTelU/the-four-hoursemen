@@ -29,7 +29,14 @@ a = [3, 6, 4, 5]
 print generateC(3, a, 0)
 
 # Generate V function
+import random, sys
+from numpy import matrix
 
+def generate_v(n, gf):
+	v = [0 for i in range(n)]
+	while (v == [0 for i in range(n)]):
+		v = [random.randrange(sys.maxint)%gf for i in range(n)]
+	return v
 
 # Generate Q function
 
