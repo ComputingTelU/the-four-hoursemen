@@ -27,6 +27,7 @@ def generateC(n, a, gf):
 #a = [[x^2 + x + 2], [x^2 + 4x + 2], [x^2 + 2x + 3], [x^2 + 3x + 3]]
 a = [3, 6, 4, 5]
 print generateC(3, a, 0)
+
 # Generate V function
 
 
