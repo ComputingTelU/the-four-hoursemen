@@ -71,7 +71,7 @@ def generateQ(n, gf):                   #Membuat matrix Q dengan ukuran n*n di G
     Q=list(m)
     return Q
 
-def preparation(n, gf, r):
+def preparation(n, gf):
     ########### Generate Companion Matrix ###########
 
     gen_primitive=primitive_polynom(n, gf)
