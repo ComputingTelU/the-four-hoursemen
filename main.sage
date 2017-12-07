@@ -7,8 +7,7 @@ import time
 
 f = open('result', 'w')
 
-# for q in [2,3,5,7]:
-for q in [2]:
+for q in [2,3,5,7]:
     for n in range(3,21+1):
         for r in range(3,20+1):
             f.write('n = ')
